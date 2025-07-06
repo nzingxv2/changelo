@@ -1,19 +1,31 @@
 {
-  "name": "foo",
+  "name": "@nzingxv2/changelo",
   "version": "1.0.0",
   "description": "A CLI to generate changelog from git diff",
+  "main": "bin/index.js",
   "scripts": {
-    "dev": "docsify serve docs",
-    "build": "docsify generate docs",
-    "preview": "npm run build && serve -s docs"
+    "test": "node bin/index.js -v"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nzingxv2/changelo"
+    "url": "git+https://github.com/nzingxv2/changelo.git"
   },
+  "keywords": [
+    "cli",
+    "changelogs",
+    "generator",
+    "tools",
+    "dev",
+    "MIT",
+    "CHANGELOGS-GENERAOTOR",
+    "commit",
+    "git",
+    "diff"
+  ],
   "author": "nzingxv2",
   "license": "MIT",
-  "devDependencies": {
-    "docsify-cli": "^4.4.4"
-  }
+  "bugs": {
+    "url": "https://github.com/nzingxv2/changelo/issues"
+  },
+  "homepage": "https://github.com/nzingxv2/changelo#readme"
 }
