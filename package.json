@@ -1,0 +1,19 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "A CLI to generate changelog from git diff",
+  "scripts": {
+    "dev": "docsify serve docs",
+    "build": "docsify generate docs",
+    "preview": "npm run build && serve -s docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzingxv2/changelo"
+  },
+  "author": "nzingxv2",
+  "license": "MIT",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
