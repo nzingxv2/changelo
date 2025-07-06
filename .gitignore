@@ -139,7 +139,6 @@ out/
 
 .git-old/
 .gitconfig
-.github/
 .gitreview
 .gitk
 
